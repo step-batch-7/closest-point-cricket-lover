@@ -12,6 +12,11 @@ Location of organism: [69 7],   Closest food target : [55 38]
 Location of organism: [10 94],  Closest food target : [18 76]
 Location of organism: [36 27],  Closest food target : [55 38]
 */
+
+#define LENGTH 5
+#define LOCATIONS_OF_ORGANISM {{18, 86},{97, 27},{69, 7},{10, 94},{36, 27}}
+#define FOOD_TARGETS {{18, 76}, {19, 66}, {89, 57}, {9, 71}, {55, 38}}
+
 typedef struct
 {
 	int x;
