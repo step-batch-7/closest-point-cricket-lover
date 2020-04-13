@@ -3,8 +3,8 @@
 
 double get_distance(struct Point start, struct Point end)
 {
-	double sqr_of_delta_in_x = (end.x - start.x) * (end.x - start.x);
-	double sqr_of_delta_in_y = (end.y - start.y) * (end.y - start.y);
+	double sqr_of_delta_in_x = pow(end.x - start.x, 2);
+	double sqr_of_delta_in_y = pow(end.y - start.y, 2);
 	return sqrt(sqr_of_delta_in_x + sqr_of_delta_in_y);
 }
 
